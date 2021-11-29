@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/blogs',[BlogController::class,'index']);
+Route::get('/blog',[BlogController::class,'index']);
+
+Route::get('/home',function() { return view('welcome'); });
