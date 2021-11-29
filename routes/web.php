@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::get('/blog',[BlogController::class,'index']);
 
 Route::get('/home',function() { return view('welcome'); });
+
+// modifico ma non ho fatto un pull
