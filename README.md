@@ -8,13 +8,6 @@ prova commit
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<<<<<<< HEAD
-## About Laravel            prova account
-=======
-## About Laravel prova modifica about
-
-## About Laravel            modificato about laravel
->>>>>>> 565d82236cc9ce3bb167ba2a97fd7fbb883f7f47
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
