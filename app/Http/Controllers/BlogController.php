@@ -12,6 +12,4 @@ class BlogController extends Controller
         $blogs = Blog::all();
         return view('blog.index',compact('blogs'));
     }
-
-
 }
