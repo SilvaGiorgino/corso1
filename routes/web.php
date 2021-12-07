@@ -10,8 +10,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blog',[BlogController::class,'index']);
+Route::get('/blog/new',[BlogController::class,'form']);
+Route::get('/blog/view',[BlogController::class,'dettagli']);
 
-Route::get('/home',function() { return view('welcome'); });
-
-// modifico ma non ho fatto un 
- 
+Route::get('/home',function() { return view('welcome'); }); 
