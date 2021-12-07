@@ -31,3 +31,5 @@
     <x-test type="error" :message="$message" class="mb-4"/>
     <x-chat/>
 </x-layout>
+
+test
