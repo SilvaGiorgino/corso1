@@ -1,15 +1,14 @@
-<form method = "POST" action = "">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" placeholder="Inserire il nome">
+<x-layout>
+    <x-slot name="scripts"></x-slot>
+    <x-slot name="title">Inserisci un libro</x-slot>
 
-    <label for="cognome">Cognome:</label>
-    <input type="text" id="cognome" name="cognome" placeholder="Inerire il cognome">
+    {{ Form::component('textInput', 'components.text', ['name', 'value'=>null, 'attributes'=>[]]); }}
 
-    <label for="nazionalità">Nazionalità:</label>
-    <input type="text" id="nazionalita" name="nazionalita" placeholder="Inserire la nazionalità">
-
-    <label for="dataN">Data di nascita:</label>
-    <input type="date" id="dataN" name="dataN">
-
-    <input class='button small expanded' type="submit" name="submit" value="Aggiungi">
-</form>
+    {!! Form::open(['url' => route('libreria.index')]) !!}
+    
+    {{ Form::textInput('nome') }}
+   
+    {{ Form::submit('Invio'); }}
+    
+    {!! Form::close() !!}
+</x-layout>
