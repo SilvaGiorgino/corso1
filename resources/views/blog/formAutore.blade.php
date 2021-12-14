@@ -6,7 +6,6 @@
 
 <x-layout>
     <x-slot name="scripts"></x-slot>
-    <x-slot name="title">Inserisci un autore</x-slot>
 
     
     {{ Form::component('textInput', 'components.text', ['name', 'label'=>null, 'value'=>null, 'attributes'=>[]]); }}
