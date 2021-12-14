@@ -5,7 +5,7 @@
     </div>
 <x-layout>
     <x-slot name="scripts"></x-slot>
-
+    <x-slot name="title">Inserisci un libro</x-slot>
 
     {{ Form::component('textInput', 'components.text', ['name', 'label'=>null, 'value'=>null, 'attributes'=>[]]); }}
     {{ Form::component('dateInput', 'components.date', ['name', 'label'=>null, 'value'=>null, 'attributes'=>[]]); }}
