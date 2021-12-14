@@ -1,6 +1,8 @@
 <x-layout>
     <x-slot name="scripts"></x-slot>
     <x-slot name="title">Inserisce un autore</x-slot>
+
+    
     {{ Form::component('textInput', 'components.text', ['name', 'value'=>null, 'attributes'=>[]]); }}
     {{ Form::component('dateInput', 'components.date', ['name', 'value'=>null, 'attributes'=>[]]); }}
     {{ Form::component('submitForm', 'components.submit', ['name', 'value'=>null, 'attributes'=>[]]); }}
