@@ -14,7 +14,7 @@
     {{ Form::textInput('name','Nome') }}
     {{ Form::textInput('surname','Cognome') }}
     {{ Form::dateInput('born','Data di nascita') }}
-    {{ Form::selectInput('nationality', 'Nazionalità', ['Italia' => 'Italia', 'Spagna' => 'Spagna', 'Francia' => 'Francia']) }}
+    {{ Form::selectInput('nationality', 'Nazionalità', ['Italia' => 'Italia', 'Inghilterra' => 'Inghilterra', 'Spagna' => 'Spagna', 'Francia' => 'Francia']) }}
     
     {{ Form::submitForm('Invio'); }}
     
