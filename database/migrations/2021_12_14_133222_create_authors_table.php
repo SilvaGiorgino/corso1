@@ -24,7 +24,7 @@ class CreateAuthorsTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations drop
      *
      * @return void
      */
