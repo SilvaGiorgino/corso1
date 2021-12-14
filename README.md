@@ -26,5 +26,3 @@ Per eseguire le migrazioni:      php artisan migrate
     {{ Form::label($name, $nameSHOW, ['class'=> '']) }}<br>
     {{ Form::text($name, $value, array_merge(['class'=>''], $attributes)) }}
 </div>""
-
-prova satu
