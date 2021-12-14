@@ -11,7 +11,7 @@ class BookController extends Controller{
         $storeData = $request->validate([
             'name'=> 'required|max:255',
             'homeEditor'=> 'required|max:255',
-            'nPage'=>'require|integer|min:1',
+            'nPage'=>'required|integer|min:1',
             'release'=>'required|date',
             'genre'=>'required|max:255'
         ]);

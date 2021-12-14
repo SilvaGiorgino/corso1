@@ -13,7 +13,7 @@ class AuthorController extends Controller
             'name'=> 'required|max:255',
             'surname'=> 'required|max:255',
             'nationality'=>'required|max:255',
-            'born'=>'required'
+            'born'=>'required|date'
         ]);
         $post = Author::create($storeData);
         return redirect('/home');
