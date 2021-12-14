@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-sm p-6">
+<div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-md p-6">
     <div class="flex justify-between items-center">
         <h3 class="text-2xl font-medium">Titolo del libro</h3>
         <span class="bg-gray-100 px-3 py-1 rounded-md text-sm font-medium text-gray-600">2021</span>

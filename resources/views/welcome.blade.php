@@ -12,16 +12,18 @@
 <body>
     <!-- Menu -->
     <div class="flex gap-2 justify-center p-4">
+        <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Home</a>
         <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Link 1</a>
         <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Link 2</a>
     </div>
-    <div class="container mx-auto">
+    <div class="container mx-auto p-4">
         <h1 class="mt-8 mb-4 font-bold text-blue-800 text-4xl">Pagina di benvenuto</h1>
         <p class="leading-relaxed text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
         <!-- Elenco libri -->
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-sm p-6">
+        <h3 class="mt-8 font-bold text-gray-400 uppercase">Elenco dei libri</h3>
+        <div class="my-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-md p-6">
                 <div class="flex justify-between items-center">
                     <h3 class="text-2xl font-medium">Titolo del libro</h3>
                     <span class="bg-gray-100 px-3 py-1 rounded-md text-sm font-medium text-gray-600">2021</span>
@@ -36,8 +38,9 @@
         </div>
 
         <!-- Elenco autori -->
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-sm p-6">
+        <h3 class="mt-8 font-bold text-gray-400 uppercase">Elenco degli autori</h3>
+        <div class="my-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-md p-6">
                 <div class="flex justify-between items-center">
                     <h3 class="text-2xl font-medium">Nome Cognome</h3>
                     <!--<span class="bg-gray-100 px-3 py-1 rounded-md text-sm font-medium text-gray-600">2021</span>-->
