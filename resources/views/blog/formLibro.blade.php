@@ -1,29 +1,18 @@
-    <x-layout>
-    <x-slot name="scripts"></x-slot>
-    <x-slot name="title">Inserisci un libro</x-slot>
+<form method = "POST" action = "">
+    <label for="titolo">Titolo:</label>
+    <input type="text" id="titolo" name="titolo" placeholder="Inserire il titolo">
 
-    <div>My Page content is here</div>
+    <label for="autore">Autore:</label>
+    <input type="text" id="autore" name="autore" placeholder="Inerire il autore">
 
-    {!! Form::open(['url' => 'foo/bar']) !!}
-    {{ Form::radio('category_id', 1) }}
-    {{ Form::text('username'); }}
-    {{  Form::select('size', ['L' => 'Large', 'S' => 'Small']) }}
+    <label for="genere">Genere:</label>
+    <input type="text" id="genere" name="genere" placeholder="Inserire il genere">
 
-{!! Form::close() !!}
+    <label for="annoP">Anno pubblicazione:</label>
+    <input type="number" id="annoP" name="annoP">
 
+    <label for="numeroP">Numero pagine:</label>
+    <input type="number" id="numeroP" name="numeroP">
 
-
-
-    @foreach ($blogs as $blog)
-    ----
-        {{ $blog->title }}
-        {!! Form::model($blog, ['url' => ['user.update', $blog->id]]) !!}
-        {{ Form::text('title') }}
-
-        {!! Form::close() !!}
-    -----
-        @endforeach
-    <?php $message='ciao'; ?>
-    <x-test type="error" :message="$message" class="mb-4"/>
-    <x-chat/>
-</x-layout>
+    <input class='button small expanded' type="submit" name="submit" value="Aggiungi">
+</form>
