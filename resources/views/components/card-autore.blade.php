@@ -7,7 +7,7 @@
         <span class="bg-blue-200 text-sm px-3 py-1 rounded-full">Nazionalità</span>
         <span class="border text-sm px-3 py-1 rounded-full">Data di nascita</span>
     </div>
-    <p>
+    <p class="text-gray-600 leading-relaxed">
         <!--Note-->
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget accumsan justo, eu rutrum quam. In molestie ligula at ultricies luctus. In auctor ipsum ante, a elementum ligula commodo in.
     </p>
