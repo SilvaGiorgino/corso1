@@ -14,4 +14,6 @@ Route::get('/blog/new',[BlogController::class,'form']);
 Route::get('/blog/view',[BlogController::class,'dettagli']);
 
 Route::get('/home',function() { return view('welcome'); }) -> name("libreria.index"); 
-Route::get('/form', function() { return view('blog.formLibro'); });
+Route::get('/formLibro', function() { return view('blog.formLibro'); });
+Route::get('/formAutore', function() { return view('blog.formAutore'); });
+
