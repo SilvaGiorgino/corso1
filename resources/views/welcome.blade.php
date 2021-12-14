@@ -13,7 +13,7 @@
     <!-- Menu -->
     <div class="flex gap-2 justify-center p-4">
         <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Home</a>
-        <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Link 1</a>
+        <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100"> {{ libreria.index }}</a>
         <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Link 2</a>
     </div>
     <div class="container mx-auto p-4">
