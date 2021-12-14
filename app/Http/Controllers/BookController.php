@@ -7,6 +7,11 @@ use App\Models\Book;
 
 class BookController extends Controller{
     
+    public static function getData(){
+        $prodotti = Book::all();
+        return(compact('prodotti'));
+    }
+
     public function saveBook(Request $request){
         $storeData = $request->validate([
             'name'=> 'required|max:255',

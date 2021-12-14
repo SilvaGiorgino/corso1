@@ -7,7 +7,12 @@ use Illuminate\Http\Request;
 
 class AuthorController extends Controller
 {
-    
+   
+    public static function getData(){
+        $prodotti = Author::all();
+        return(compact('prodotti'));
+    }
+
     public function saveAuthor(Request $request){
         $storeData = $request->validate([
             'name'=> 'required|max:255',
