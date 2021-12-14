@@ -15,3 +15,7 @@ Casa editrice
 Numero Pagine
 Anno Pubblicazione
 Genere
+
+
+per eseguire le migrazioni
+php artisan migrate
