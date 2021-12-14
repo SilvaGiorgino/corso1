@@ -10,20 +10,15 @@
 </head>
 
 <body>
-    <!-- Menu -->
-    <div class="flex gap-2 justify-center p-4 text-gray-600 font-medium">
-        <a href="{{ route('libreria.index') }}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100"> Home</a>
-        <a href="{{ route('libreria.formAutore')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiungi autore</a>
-        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiugni libro</a>
-    </div>
+    <x-menu />
     <div class="container mx-auto p-4">
-        <div class="rounded-md p-8 bg-yellow-100">
+        <div class="rounded-md p-8 bg-yellow-50">
             <h1 class="mb-4 font-bold text-blue-800 text-4xl">Pagina di benvenuto</h1>
             <p class="leading-relaxed text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
         <!-- Elenco libri -->
-        <h3 class="mt-8 font-bold text-gray-400 uppercase">Elenco dei libri</h3>
+        <h3 class="mt-8 font-bold text-slate-500 uppercase">Elenco dei libri</h3>
         <div class="my-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-md p-6">
                 <div class="flex justify-between items-center">
@@ -40,7 +35,7 @@
         </div>
 
         <!-- Elenco autori -->
-        <h3 class="mt-8 font-bold text-gray-400 uppercase">Elenco degli autori</h3>
+        <h3 class="mt-8 font-bold text-slate-500 uppercase">Elenco degli autori</h3>
         <div class="my-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col gap-y-4 rounded-md border border-gray-200 transition-shadow hover:shadow-md p-6">
                 <div class="flex justify-between items-center">

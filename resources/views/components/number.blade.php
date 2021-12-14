@@ -1,4 +1,4 @@
-<div class="">
+<div class="my-4">
     {{ Form::label($name, null, ['class' => '']) }}
     {{ Form::number($name, $value, array_merge(['class' => ''], $attributes)) }}
     @error($name)
