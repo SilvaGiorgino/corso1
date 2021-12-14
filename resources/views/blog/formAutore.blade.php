@@ -9,7 +9,7 @@
     {{ Form::component('selectInput', 'components.select', ['name', 'label'=>null, 'value'=>null, 'attributes'=>[]]); }}
 
 
-    {!! Form::open(['url' => route('libreria.indexPost')]) !!}
+    {!! Form::open(['url' => route('libreria.saveAuthor')]) !!}
     
     {{ Form::textInput('name','Nome') }}
     {{ Form::textInput('surname','Cognome') }}
