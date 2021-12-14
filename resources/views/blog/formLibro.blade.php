@@ -12,11 +12,11 @@
 
     {!! Form::open(['url' => route('libreria.indexPost')]) !!}
     
-    {{ Form::textInput('name', 'Nome Libro') }}
-    {{ Form::textInput('homeEditor', 'Casa editrice') }}
+    {{ Form::textInput('name', 'Nome') }}
+    {{ Form::textInput('genre', 'Genere') }}
     {{ Form::numberInput('nPage', 'Numero pagine') }}
     {{ Form::dateInput('release','Anno Pubblicazione') }}
-    {{ Form::selectInput('genre', 'Genere', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli']) }}
+    {{ Form::selectInput('homeEditor', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli']) }}
    
     {{ Form::submitForm('Invio'); }}
     
