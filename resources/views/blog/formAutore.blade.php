@@ -9,7 +9,7 @@
     <input type="text" id="nazionalita" name="nazionalita" placeholder="Inserire la nazionalità">
 
     <label for="dataN">Data di nascita:</label>
-    <input type="date" id="dataN" name="dataN" name="dataN">
+    <input type="date" id="dataN" name="dataN">
 
     <input class='button small expanded' type="submit" name="submit" value="Aggiungi">
 </form>
