@@ -1,7 +1,7 @@
 <div class="flex gap-2 justify-center p-4 text-gray-600 font-medium">
         <a href="{{ route('libreria.index') }}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100"> Home</a>
         <a href="{{ route('libreria.formAutore')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiungi autore</a>
-        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiugni libro</a>
+        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiungi libro</a>
     </div>
 <x-layout>
     <x-slot name="scripts"></x-slot>
@@ -15,7 +15,7 @@
 
 
 
-    {!! Form::open(['url' => route('libreria.index')]) !!}
+    {!! Form::open(['url' => route('libreria.indexPost')]) !!}
     
     {{ Form::textInput('name', 'Nome Libro') }}
     {{ Form::textInput('homeEditor', 'Casa editrice') }}
