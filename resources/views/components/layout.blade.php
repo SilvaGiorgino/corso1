@@ -10,7 +10,7 @@
 
 <body>
     <x-menu />
-    <div class="container mx-auto py-4 px-64">
+    <div class="container mx-auto py-4 px-16 md:px-32 lg:px-64">
         <h1 class="mt-4 mb-8 text-2xl text-blue-800 font-bold"> {{ $title ?? 'Titolo di default' }}</h1>
         {{ $slot }}
     </div>
