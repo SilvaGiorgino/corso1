@@ -16,7 +16,7 @@
     {{ Form::textInput('genre', 'Genere') }}
     {{ Form::numberInput('nPage', 'Numero pagine') }}
     {{ Form::dateInput('release','Anno Pubblicazione') }}
-    {{ Form::selectInput('homeEditor', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli']) }}
+    {{ Form::selectInput('homeEditor', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli', 'Chiarelettere' => 'Chiarelettere', 'Cairo Editore' => 'Cairo Editore', 'Rizzoli' => 'Rizzoli']) }}
    
     {{ Form::submitForm('Invio'); }}
     
