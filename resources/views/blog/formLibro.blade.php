@@ -10,9 +10,9 @@
 
 
 
-    {!! Form::open(['url' => route('libreria.indexPost')]) !!}
+    {!! Form::open(['url' => route('libreria.saveBook')]) !!}
     
-    {{ Form::textInput('name', 'Nome') }}
+    {{ Form::textInput('name', 'Nome Libro') }}
     {{ Form::textInput('genre', 'Genere') }}
     {{ Form::numberInput('nPage', 'Numero pagine') }}
     {{ Form::dateInput('release','Anno Pubblicazione') }}
