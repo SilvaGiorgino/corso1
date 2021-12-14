@@ -17,5 +17,5 @@ Anno Pubblicazione
 Genere
 
 
-per eseguire le migrazioni
+Per eseguire le migrazioni
 php artisan migrate
