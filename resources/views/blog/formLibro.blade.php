@@ -16,7 +16,7 @@
     {{ Form::textInput('homeEditor', 'Casa editrice') }}
     {{ Form::numberInput('nPage', 'Numero pagine') }}
     {{ Form::dateInput('release','Anno Pubblicazione') }}
-    {{ Form::selectInput('genre', 'Genere', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli']) }}
+    {{ Form::selectInput('casa_editrice', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli']) }}
    
     {{ Form::submitForm('Invio'); }}
     
