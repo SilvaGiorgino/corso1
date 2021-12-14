@@ -1,4 +1,4 @@
-<x-layout>
+    <x-layout>
     <x-slot name="scripts"></x-slot>
     <x-slot name="title">Inserisci un libro</x-slot>
 
