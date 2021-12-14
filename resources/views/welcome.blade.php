@@ -11,14 +11,14 @@
 
 <body>
     <!-- Menu -->
-    <div class="flex gap-2 justify-center p-4">
-        <a href="{{ route('libreria.index') }}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100"> Home</a>
-        <a href="{{ route('libreria.formAutore')}}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Aggiungi autore</a>
-        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Aggiugni libro</a>
+    <div class="flex gap-2 justify-center p-4 text-gray-600 font-medium">
+        <a href="{{ route('libreria.index') }}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100"> Home</a>
+        <a href="{{ route('libreria.formAutore')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiungi autore</a>
+        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-md bg-white transition-colors hover:bg-gray-100">Aggiugni libro</a>
     </div>
     <div class="container mx-auto p-4">
-        <div class="bg-sky-200">
-            <h1 class="mt-8 mb-4 font-bold text-blue-800 text-4xl">Pagina di benvenuto</h1>
+        <div class="rounded-md p-8 bg-yellow-100">
+            <h1 class="mb-4 font-bold text-blue-800 text-4xl">Pagina di benvenuto</h1>
             <p class="leading-relaxed text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
