@@ -15,3 +15,6 @@ Casa editrice
 Numero Pagine
 Anno Pubblicazione
 Genere
+
+
+Per eseguire le migrazioni: **php artisan migrate**
