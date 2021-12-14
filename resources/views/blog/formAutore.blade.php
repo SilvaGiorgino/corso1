@@ -13,9 +13,9 @@
     
     {{ Form::textInput('name','Nome') }}
     {{ Form::textInput('surname','Cognome') }}
-    {{ Form::dateInput('born','Data di nascita') }}
     {{ Form::selectInput('nationality', 'Nazionalità', ['Italia' => 'Italia', 'Inghilterra' => 'Inghilterra', 'Spagna' => 'Spagna', 'Francia' => 'Francia', 'Germania' => 'Germania', 'Paesi Bassi' => 'Paesi Bassi', 'Portogallo' => 'Portogallo', 'USA' => 'USA']) }}
-    
+    {{ Form::dateInput('born','Data di nascita') }}
+
     {{ Form::submitForm('Invio'); }}
     
     {!! Form::close() !!}
