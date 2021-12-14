@@ -15,5 +15,7 @@ class AuthorController extends Controller
             'nationality'=>'required|max:255',
             'born'=>'required'
         ]);
+        $post = Author::create($storeData);
+        return redirect('/home');
     }
 }

@@ -15,6 +15,8 @@ class BookController extends Controller{
             'release'=>'required|date',
             'genre'=>'required|max:255'
         ]);
+        $post = Book::create($storeData);
+        return redirect('/home');
     }
 
 }
