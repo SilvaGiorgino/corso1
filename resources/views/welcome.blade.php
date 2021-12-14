@@ -12,8 +12,10 @@
 <body>
     <!-- Menu -->
     <div class="flex gap-2 justify-center p-4">
-        <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100"> {{ libreria.index }}</a>
-        <a href="#" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Link 2</a>
+        <a href="{{ route('libreria.index') }}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100"> Home</a>
+        <a href="{{ route('libreria.formAutore')}}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Aggiungi autore</a>
+        <a href="{{ route('libreria.formLibro')}}" class="px-4 py-2 rounded-lg bg-white transition-colors hover:bg-gray-100">Aggiugni libro</a>
+
     </div>
     <div class="container mx-auto">
         <h1 class="mt-8 mb-4 font-bold text-blue-800 text-4xl">Pagina di benvenuto</h1>
