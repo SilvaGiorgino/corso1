@@ -568,7 +568,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem;
   padding-right: 1rem;
 }
-<<<<<<< HEAD
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -609,8 +608,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 16rem;
   padding-right: 16rem;
 }
-=======
->>>>>>> 32ed3e6ad65d1f0021f24dec24dbd985030f7098
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -654,7 +651,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
-<<<<<<< HEAD
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -662,12 +658,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-blue-100 {
   --tw-text-opacity: 1;
   color: rgb(219 234 254 / var(--tw-text-opacity));
-=======
-.transition-shadow {
-  transition-property: box-shadow;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
->>>>>>> 32ed3e6ad65d1f0021f24dec24dbd985030f7098
 }
 .transition-colors {
   transition-property: background-color, border-color, color, fill, stroke;
