@@ -10,13 +10,13 @@
 
 
 
-    {!! Form::open(['url' => route('libreria.indexPost')]) !!}
+    {!! Form::open(['url' => route('libreria.saveBook')]) !!}
     
     {{ Form::textInput('name', 'Nome') }}
     {{ Form::textInput('genre', 'Genere') }}
     {{ Form::numberInput('nPage', 'Numero pagine') }}
     {{ Form::dateInput('release','Anno Pubblicazione') }}
-    {{ Form::selectInput('homeEditor', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli', 'Chiarelettere' => 'Chiarelettere', 'Cairo Editore' => 'Cairo Editore', 'Rizzoli' => 'Rizzoli']) }}
+    {{ Form::selectInput('homeEditor', 'Casa editrice', ['Mondadori' => 'Mondadori', 'Bompiani' => 'Bompiani', 'Hoepli' => 'Hoepli', 'Chiarelettere' => 'Chiarelettere', 'Cairo Editore' => 'Cairo Editore', 'Rizzoli' => 'Rizzoli', 'De Agostini Editore' => 'De Agostini Editore', 'Feltrinelli Editore' => 'Feltrinelli Editore']) }}
    
     {{ Form::submitForm('Invio'); }}
     
